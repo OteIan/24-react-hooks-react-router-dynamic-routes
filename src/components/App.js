@@ -4,6 +4,7 @@ import NavBar from "./NavBar";
 import MoviesPage from "./MoviesPage";
 
 function App() {
+  // eslint-disable-next-line
   const [movies, setMovies] = useState([
     { id: 1, title: "A River Runs Through It" },
     { id: 2, title: "Se7en" },
